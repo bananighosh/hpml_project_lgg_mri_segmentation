@@ -1,0 +1,368 @@
+workers 1
+
+Running with 1 GPUs
+Epoch is [1/2], batch size 16
+Training time: 124.24 seconds
+Communication time: 22.6142 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 105.01 seconds
+Communication time: 4.3879 seconds
+-----------------
+
+Running with 2 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 55.75 seconds
+Communication time: 3.7247 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 55.75 seconds
+Communication time: 3.6955 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 54.93 seconds
+Communication time: 2.2327 seconds
+-----------------
+Training time: 54.92 seconds
+Communication time: 2.1928 seconds
+-----------------
+
+Running with 3 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 39.26 seconds
+Communication time: 3.0992 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 39.26 seconds
+Communication time: 3.2458 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 39.27 seconds
+Communication time: 3.0378 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 37.90 seconds
+Communication time: 1.5312 seconds
+-----------------
+Training time: 37.90 seconds
+Communication time: 1.5530 seconds
+-----------------
+Training time: 37.90 seconds
+Communication time: 1.5261 seconds
+-----------------
+
+Running with 4 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 31.00 seconds
+Communication time: 2.7593 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 31.00 seconds
+Communication time: 2.7693 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 31.00 seconds
+Communication time: 2.7632 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 31.01 seconds
+Communication time: 2.7794 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 29.78 seconds
+Communication time: 1.2532 seconds
+-----------------
+Training time: 29.78 seconds
+Communication time: 1.2158 seconds
+-----------------
+Training time: 29.77 seconds
+Communication time: 1.2377 seconds
+-----------------
+Training time: 29.77 seconds
+Communication time: 1.2226 seconds
+-----------------
+
+
+workers 2
+U_Net
+
+Running with 1 GPUs
+Epoch is [1/2], batch size 16
+Training time: 128.33 seconds
+Communication time: 21.0001 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 111.32 seconds
+Communication time: 4.7241 seconds
+-----------------
+
+Running with 2 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 60.57 seconds
+Communication time: 4.0122 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 60.57 seconds
+Communication time: 3.9756 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 59.50 seconds
+Communication time: 2.3902 seconds
+-----------------
+Training time: 59.50 seconds
+Communication time: 2.3955 seconds
+-----------------
+
+Running with 3 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 43.61 seconds
+Communication time: 3.2880 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 43.61 seconds
+Communication time: 3.3214 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 43.62 seconds
+Communication time: 3.3378 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 42.45 seconds
+Communication time: 1.6845 seconds
+-----------------
+Training time: 42.45 seconds
+Communication time: 1.6601 seconds
+-----------------
+Training time: 42.44 seconds
+Communication time: 1.6657 seconds
+-----------------
+
+Running with 4 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 35.23 seconds
+Communication time: 3.0282 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 35.23 seconds
+Communication time: 3.0424 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 35.23 seconds
+Communication time: 3.1086 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 35.23 seconds
+Communication time: 3.0523 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 34.15 seconds
+Communication time: 1.3076 seconds
+-----------------
+Training time: 34.14 seconds
+Communication time: 1.3030 seconds
+-----------------
+Training time: 34.14 seconds
+Communication time: 1.3428 seconds
+-----------------
+Training time: 34.14 seconds
+Communication time: 1.3092 seconds
+-----------------
+
+
+workers 4
+
+U_Net
+
+Running with 1 GPUs
+Epoch is [1/2], batch size 16
+Training time: 131.34 seconds
+Communication time: 21.1385 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 114.14 seconds
+Communication time: 4.4703 seconds
+-----------------
+
+Running with 2 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 65.05 seconds
+Communication time: 3.8248 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 65.05 seconds
+Communication time: 3.8549 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 63.87 seconds
+Communication time: 2.3028 seconds
+-----------------
+Training time: 63.87 seconds
+Communication time: 2.3356 seconds
+-----------------
+
+Running with 3 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 49.55 seconds
+Communication time: 3.2426 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 49.55 seconds
+Communication time: 3.2595 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 49.55 seconds
+Communication time: 3.2882 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 48.21 seconds
+Communication time: 1.6505 seconds
+-----------------
+Training time: 48.21 seconds
+Communication time: 1.5997 seconds
+-----------------
+Training time: 48.21 seconds
+Communication time: 1.5972 seconds
+-----------------
+
+Running with 4 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 40.21 seconds
+Communication time: 2.9763 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 40.21 seconds
+Communication time: 3.0301 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 40.21 seconds
+Communication time: 2.9148 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 40.21 seconds
+Communication time: 2.9427 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 39.34 seconds
+Communication time: 1.3024 seconds
+-----------------
+Training time: 39.34 seconds
+Communication time: 1.2751 seconds
+-----------------
+Training time: 39.35 seconds
+Communication time: 1.2972 seconds
+-----------------
+Training time: 39.35 seconds
+Communication time: 1.2754 seconds
+-----------------
+
+
+
+workers 8
+
+U_Net
+
+Running with 1 GPUs
+Epoch is [1/2], batch size 16
+Training time: 145.18 seconds
+Communication time: 24.6134 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 124.06 seconds
+Communication time: 4.4928 seconds
+-----------------
+
+Running with 2 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 75.81 seconds
+Communication time: 3.8926 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 75.81 seconds
+Communication time: 3.9308 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 74.72 seconds
+Communication time: 2.3177 seconds
+-----------------
+Training time: 74.72 seconds
+Communication time: 2.3346 seconds
+-----------------
+
+Running with 3 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 60.42 seconds
+Communication time: 3.2719 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 60.42 seconds
+Communication time: 3.1952 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 60.42 seconds
+Communication time: 3.2802 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 60.07 seconds
+Communication time: 1.6215 seconds
+-----------------
+Training time: 60.07 seconds
+Communication time: 1.6301 seconds
+-----------------
+Training time: 60.07 seconds
+Communication time: 1.6354 seconds
+-----------------
+
+Running with 4 GPUs
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Epoch is [1/2], batch size 16
+Training time: 51.98 seconds
+Communication time: 2.9865 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 51.98 seconds
+Communication time: 2.9990 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 51.98 seconds
+Communication time: 2.9995 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 51.98 seconds
+Communication time: 3.0543 seconds
+-----------------
+Epoch is [2/2], batch size 16
+Training time: 51.43 seconds
+Communication time: 1.2561 seconds
+-----------------
+Training time: 51.43 seconds
+Communication time: 1.3132 seconds
+-----------------
+Training time: 51.42 seconds
+Communication time: 1.2587 seconds
+-----------------
+Training time: 51.43 seconds
+Communication time: 1.2980 seconds
+-----------------
