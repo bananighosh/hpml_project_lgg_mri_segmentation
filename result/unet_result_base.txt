@@ -1,0 +1,164 @@
+Processor: Intel(R) Xeon(R) CPU @ 2.30GHz
+RAM: 124Gi
+GPU:     Product Name                          : Tesla V100-SXM2-16GB
+    Product Name                          : Tesla V100-SXM2-16GB
+    Product Name                          : Tesla V100-SXM2-16GB
+    Product Name                          : Tesla V100-SXM2-16GB
+U_Net
+
+Running with 1 GPUs
+Epoch is [1/2], batch size 16
+|batch[1/246]|batch_loss:0.868636727|
+|batch[101/246]|batch_loss:0.275619596|
+|batch[201/246]|batch_loss:0.226130575|
+|Train dice|: 0.44831
+|Train Mean IoU|: 0.64143
+Training time: 178.95 seconds
+Communication time: 19.4321 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/246]|batch_loss:0.181185335|
+|batch[101/246]|batch_loss:0.133251011|
+|batch[201/246]|batch_loss:0.118548639|
+|Train dice|: 0.57980
+|Train Mean IoU|: 0.71007
+Training time: 117.45 seconds
+Communication time: 2.0474 seconds
+-----------------
+
+Running with 2 GPUs
+Epoch is [1/2], batch size 16
+|batch[1/123]|batch_loss:0.865691900|
+|batch[101/123]|batch_loss:0.288105667|
+|Train dice|: 0.42179
+|Train Mean IoU|: 0.62287
+Training time: 65.20 seconds
+Communication time: 2.5078 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/123]|batch_loss:0.261135846|
+|batch[101/123]|batch_loss:0.194385484|
+|Train dice|: 0.61065
+|Train Mean IoU|: 0.72597
+Training time: 63.05 seconds
+Communication time: 1.0730 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/123]|batch_loss:0.868227899|
+|batch[101/123]|batch_loss:0.280234188|
+|Train dice|: 0.40178
+|Train Mean IoU|: 0.61315
+Training time: 65.20 seconds
+Communication time: 2.4938 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/123]|batch_loss:0.254774660|
+|batch[101/123]|batch_loss:0.184946641|
+|Train dice|: 0.59408
+|Train Mean IoU|: 0.71762
+Training time: 63.05 seconds
+Communication time: 1.0728 seconds
+-----------------
+
+Running with 3 GPUs
+Epoch is [1/2], batch size 16
+|batch[1/82]|batch_loss:0.864872873|
+|Train dice|: 0.37786
+|Train Mean IoU|: 0.59715
+Training time: 188.58 seconds
+Communication time: 2.2493 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/82]|batch_loss:0.286893785|
+|Train dice|: 0.53401
+|Train Mean IoU|: 0.68806
+Training time: 197.26 seconds
+Communication time: 0.7946 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/82]|batch_loss:0.872393966|
+|Train dice|: 0.34522
+|Train Mean IoU|: 0.58062
+Training time: 188.58 seconds
+Communication time: 2.3809 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/82]|batch_loss:0.287180126|
+|Train dice|: 0.50747
+|Train Mean IoU|: 0.67507
+Training time: 197.26 seconds
+Communication time: 0.7809 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/82]|batch_loss:0.868151665|
+|Train dice|: 0.38351
+|Train Mean IoU|: 0.59838
+Training time: 188.58 seconds
+Communication time: 2.3181 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/82]|batch_loss:0.295858830|
+|Train dice|: 0.54700
+|Train Mean IoU|: 0.69351
+Training time: 197.27 seconds
+Communication time: 0.7999 seconds
+-----------------
+
+Running with 4 GPUs
+Epoch is [1/2], batch size 16
+|batch[1/62]|batch_loss:0.866221130|
+|Train dice|: 0.34936
+|Train Mean IoU|: 0.58029
+Training time: 299.27 seconds
+Communication time: 2.3182 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/62]|batch_loss:0.319942802|
+|Train dice|: 0.57312
+|Train Mean IoU|: 0.70737
+Training time: 301.05 seconds
+Communication time: 0.7891 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/62]|batch_loss:0.870858073|
+|Train dice|: 0.32650
+|Train Mean IoU|: 0.56721
+Training time: 299.27 seconds
+Communication time: 2.9653 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/62]|batch_loss:0.321177244|
+|Train dice|: 0.56222
+|Train Mean IoU|: 0.70143
+Training time: 301.05 seconds
+Communication time: 0.7930 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/62]|batch_loss:0.866328776|
+|Train dice|: 0.35967
+|Train Mean IoU|: 0.58013
+Training time: 299.27 seconds
+Communication time: 2.2033 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/62]|batch_loss:0.325146168|
+|Train dice|: 0.58391
+|Train Mean IoU|: 0.71161
+Training time: 301.05 seconds
+Communication time: 0.7455 seconds
+-----------------
+Epoch is [1/2], batch size 16
+|batch[1/62]|batch_loss:0.869608223|
+|Train dice|: 0.34623
+|Train Mean IoU|: 0.57755
+Training time: 299.27 seconds
+Communication time: 2.3274 seconds
+-----------------
+Epoch is [2/2], batch size 16
+|batch[1/62]|batch_loss:0.319029778|
+|Train dice|: 0.57603
+|Train Mean IoU|: 0.70957
+Training time: 301.05 seconds
+Communication time: 0.8227 seconds
+-----------------
+U_Net
