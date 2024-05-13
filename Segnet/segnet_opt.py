@@ -72,7 +72,7 @@ class MRIDataset(Dataset):
     def __getitem__(self, index):
         img = self.img_path[index]
         label = self.label_path[index]
-        # 从文件名中读取数据（图片和标签都是png格式的图像数据）
+       ）
         img = cv2.imread(img)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         label = cv2.imread(label)
