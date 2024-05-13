@@ -60,7 +60,7 @@ class LabelProcessor:
 class MRIDataset(Dataset):
     
     def __init__(self, img_path, label_path):
-        # 读入图片和标签路径, 传入pandas格式 eg: img_path = pandas["image"]
+        
         if not isinstance(img_path, np.ndarray):
             self.img_path = np.array(img_path)
             self.label_path = np.array(label_path)
@@ -316,11 +316,11 @@ def train(rank, world_size, net, batch_size, epochs, Load_train):
         print('Epoch is [{}/{}], batch size {}'.format(epoch + 1, Epoch, batch_size))
 
         for i, sample in enumerate(train_data):
-            # 载入数据
+           
             img_data = sample['img'].to(device)
             img_label = sample['label'].to(device)
             # xxx time
-            # 训练
+            
             start_comm = time.time()
             out = net(img_data)
             comm_time += time.time() - start_comm
@@ -331,7 +331,7 @@ def train(rank, world_size, net, batch_size, epochs, Load_train):
             loss.backward()
             optimizer.step()
             train_loss += loss.item()
-            # 评估
+           
             pre_label = out.max(dim=1)[1].data.cpu().numpy()
             true_label = img_label.data.cpu().numpy()
             eval_metrix = eval_semantic_segmentation(pre_label, true_label)
